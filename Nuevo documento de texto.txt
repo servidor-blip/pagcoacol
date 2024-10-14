@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activos en Venta - Cooperativa Ocotepeque</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f1f8e9; /* Verde claro */
+            color: #333; /* Texto gris oscuro */
+        }
+
+        h1, h2, h3 {
+            color: #005b33; /* Verde oscuro */
+        }
+
+        a {
+            text-decoration: none;
+            color: #004d66;
+        }
+
+        /* Encabezado */
+        header {
+            background-color: #005b33; /* Verde oscuro */
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            color: #ffffff; /* Texto blanco */
+        }
+
+        /* Menú de navegación */
+        nav {
+            background-color: #004d66; /* Verde más oscuro */
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #ffffff; /* Blanco */
+            font-weight: bold;
+            font-size: 18px;
+            padding: 10px 20px;
+            transition: background-color 0.3s, transform 0.3s;
+            border-radius: 5px;
+        }
+
+        nav ul li a:hover {
+            background-color: #ffcc00; /* Amarillo */
+            color: black;
+            transform: scale(1.1);
+        }
+
+        /* Sección principal */
+        .main-content {
+            padding: 50px;
+            text-align: center;
+            background-color: #e0f7fa; /* Celeste claro */
+        }
+
+        .main-content h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .main-content p {
+            font-size: 18px;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Botones dinámicos */
+        .dynamic-section {
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .dynamic-section button {
+            padding: 12px 20px;
+            background-color: #ffcc00; /* Amarillo */
+            color: black;
+            border: none;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        .dynamic-section button:hover {
+            background-color: #ff9900; /* Amarillo más oscuro */
+            transform: scale(1.05);
+        }
+
+        /* Contenedor de información dinámica */
+        .info-section {
+            margin-top: 30px;
+            display: none;
+            padding: 20px;
+            background-color: #ffffff; /* Blanco */
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: 0 auto;
+            color: #333;
+            border: 2px solid #005b33; /* Borde verde */
+        }
+
+        .info-section h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .info-section p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        /* Pie de página */
+        footer {
+            background-color: #005b33; /* Verde oscuro */
+            padding: 20px;
+            text-align: center;
+            color: white;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <h1>Cooperativa Ocotepeque</h1>
+    </header>
+
+   <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activos en Venta - Cooperativa Ocotepeque</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f1f8e9; /* Verde claro */
+            color: #333; /* Texto gris oscuro */
+        }
+
+        h1, h2, h3 {
+            color: #005b33; /* Verde oscuro */
+        }
+
+        a {
+            text-decoration: none;
+            color: #004d66;
+        }
+
+        /* Encabezado */
+        header {
+            background-color: #005b33; /* Verde oscuro */
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            color: #ffffff; /* Texto blanco */
+        }
+
+        /* Menú de navegación */
+        nav {
+            background-color: #004d66; /* Verde más oscuro */
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #ffffff; /* Blanco */
+            font-weight: bold;
+            font-size: 18px;
+            padding: 10px 20px;
+            transition: background-color 0.3s, transform 0.3s;
+            border-radius: 5px;
+        }
+
+        nav ul li a:hover {
+            background-color: #ffcc00; /* Amarillo */
+            color: black;
+            transform: scale(1.1);
+        }
+
+        /* Sección principal */
+        .main-content {
+            padding: 50px;
+            text-align: center;
+            background-color: #e0f7fa; /* Celeste claro */
+        }
+
+        .main-content h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .main-content p {
+            font-size: 18px;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Botones dinámicos */
+        .dynamic-section {
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .dynamic-section button {
+            padding: 12px 20px;
+            background-color: #ffcc00; /* Amarillo */
+            color: black;
+            border: none;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        .dynamic-section button:hover {
+            background-color: #ff9900; /* Amarillo más oscuro */
+            transform: scale(1.05);
+        }
+
+        /* Contenedor de información dinámica */
+        .info-section {
+            margin-top: 30px;
+            display: none;
+            padding: 20px;
+            background-color: #ffffff; /* Blanco */
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: 0 auto;
+            color: #333;
+            border: 2px solid #005b33; /* Borde verde */
+        }
+
+        .info-section h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .info-section p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        /* Pie de página */
+        footer {
+            background-color: #005b33; /* Verde oscuro */
+            padding: 20px;
+            text-align: center;
+            color: white;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <h1>Cooperativa Ocotepeque</h1>
+    </header>
+
+    <!-- Menú de navegación -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="afiliacion.html">Afiliación</a></li>
+            <li><a href="creditos.html">Créditos</a></li>
+            <li><a href="ahorros.html">Ahorros</a></li>
+            <li><a href="activos.html">Activos en Venta</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenido principal -->
+    <div class="main-content">
+        <h2>Activos en Venta</h2>
+        <p>Explora los diferentes activos que la cooperativa pone a tu disposición. Haz clic en los botones para obtener más información sobre cada tipo de activo en venta.</p>
+
+        <!-- Botones dinámicos -->
+        <div class="dynamic-section">
+            <button onclick="mostrarSeccion('vehiculos')">Vehículos</button>
+            <button onclick="mostrarSeccion('inmuebles')">Inmuebles</button>
+            <button onclick="mostrarSeccion('equipo')">Equipo y Maquinaria</button>
+        </div>
+    </div>
+
+    <!-- Sección dinámica de contenido -->
+    <div class="info-section" id="vehiculos">
+        <h3>Vehículos en Venta</h3>
+        <p>Contamos con una amplia gama de vehículos en venta, desde automóviles hasta motocicletas, todos a precios competitivos. Los socios de la cooperativa pueden acceder a opciones de financiamiento con tasas preferenciales.</p>
+        <ul>
+            <li>Automóviles compactos</li>
+            <li>SUV y camionetas</li>
+            <li>Motocicletas</li>
+            <li>Vehículos comerciales ligeros</li>
+        </ul>
+    </div>
+
+    <div class="info-section" id="inmuebles">
+        <h3>Inmuebles en Venta</h3>
+        <p>La cooperativa ofrece inmuebles en venta, desde terrenos hasta viviendas y locales comerciales. Aprovecha las oportunidades de adquirir propiedades a excelentes precios y condiciones.</p>
+        <ul>
+            <li>Terrenos urbanizados</li>
+            <li>Casas y apartamentos</li>
+            <li>Locales comerciales</li>
+            <li>Fincas rurales</li>
+        </ul>
+    </div>
+
+    <div class="info-section" id="equipo">
+        <h3>Equipo y Maquinaria en Venta</h3>
+        <p>Tenemos a la venta equipo industrial, maquinaria agrícola y equipo de construcción. Los socios cooperativistas tienen prioridad y acceso a financiamiento especial.</p>
+        <ul>
+            <li>Tractores y maquinaria agrícola</li>
+            <li>Equipo de construcción</li>
+            <li>Herramientas industriales</li>
+            <li>Maquinaria pesada</li>
+        </ul>
+    </div>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Cooperativa Ocotepeque. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Script para manejo dinámico -->
+    <script>
+        function mostrarSeccion(seccion) {
+            // Ocultar todas las secciones de información
+            document.querySelectorAll('.info-section').forEach(function (div) {
+                div.style.display = 'none';
+            });
+
+            // Mostrar la sección seleccionada
+            document.getElementById(seccion).style.display = 'block';
+        }
+    </script>
+</body>
+</html>
+
+
+    <!-- Contenido principal -->
+    <div class="main-content">
+        <h2>Activos en Venta</h2>
+        <p>Explora los diferentes activos que la cooperativa pone a tu disposición. Haz clic en los botones para obtener más información sobre cada tipo de activo en venta.</p>
+
+        <!-- Botones dinámicos -->
+        <div class="dynamic-section">
+            <button onclick="mostrarSeccion('vehiculos')">Vehículos</button>
+            <button onclick="mostrarSeccion('inmuebles')">Inmuebles</button>
+            <button onclick="mostrarSeccion('equipo')">Equipo y Maquinaria</button>
+        </div>
+    </div>
+
+    <!-- Sección dinámica de contenido -->
+    <div class="info-section" id="vehiculos">
+        <h3>Vehículos en Venta</h3>
+        <p>Contamos con una amplia gama de vehículos en venta, desde automóviles hasta motocicletas, todos a precios competitivos. Los socios de la cooperativa pueden acceder a opciones de financiamiento con tasas preferenciales.</p>
+        <ul>
+            <li>Automóviles compactos</li>
+            <li>SUV y camionetas</li>
+            <li>Motocicletas</li>
+            <li>Vehículos comerciales ligeros</li>
+        </ul>
+    </div>
+
+    <div class="info-section" id="inmuebles">
+        <h3>Inmuebles en Venta</h3>
+        <p>La cooperativa ofrece inmuebles en venta, desde terrenos hasta viviendas y locales comerciales. Aprovecha las oportunidades de adquirir propiedades a excelentes precios y condiciones.</p>
+        <ul>
+            <li>Terrenos urbanizados</li>
+            <li>Casas y apartamentos</li>
+            <li>Locales comerciales</li>
+            <li>Fincas rurales</li>
+        </ul>
+    </div>
+
+    <div class="info-section" id="equipo">
+        <h3>Equipo y Maquinaria en Venta</h3>
+        <p>Tenemos a la venta equipo industrial, maquinaria agrícola y equipo de construcción. Los socios cooperativistas tienen prioridad y acceso a financiamiento especial.</p>
+        <ul>
+            <li>Tractores y maquinaria agrícola</li>
+            <li>Equipo de construcción</li>
+            <li>Herramientas industriales</li>
+            <li>Maquinaria pesada</li>
+        </ul>
+    </div>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Cooperativa Ocotepeque. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Script para manejo dinámico -->
+    <script>
+        function mostrarSeccion(seccion) {
+            // Ocultar todas las secciones de información
+            document.querySelectorAll('.info-section').forEach(function (div) {
+                div.style.display = 'none';
+            });
+
+            // Mostrar la sección seleccionada
+            document.getElementById(seccion).style.display = 'block';
+        }
+    </script>
+</body>
+</html>

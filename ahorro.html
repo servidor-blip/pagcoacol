@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahorros - Cooperativa Ocotepeque</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f7fa; /* Celeste claro */
+            color: #333; /* Texto gris oscuro */
+        }
+
+        h1, h2, h3 {
+            color: #005b33; /* Verde oscuro */
+        }
+
+        a {
+            text-decoration: none;
+            color: #004d66;
+        }
+
+        /* Encabezado */
+        header {
+            background-color: #005b33; /* Verde oscuro */
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            color: #ffffff; /* Texto blanco */
+        }
+
+        /* Menú de navegación */
+        nav {
+            background-color: #004d66; /* Verde más oscuro */
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #ffffff; /* Blanco */
+            font-weight: bold;
+            font-size: 18px;
+            padding: 10px 20px;
+            transition: background-color 0.3s, transform 0.3s;
+            border-radius: 5px;
+        }
+
+        nav ul li a:hover {
+            background-color: #ffcc00; /* Amarillo */
+            color: black;
+            transform: scale(1.1);
+        }
+
+        /* Sección principal */
+        .main-content {
+            padding: 50px;
+            text-align: center;
+            background-color: #f1f8e9; /* Verde claro */
+        }
+
+        .main-content h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .main-content p {
+            font-size: 18px;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .main-content button {
+            margin-top: 20px;
+            padding: 12px 25px;
+            background-color: #ffcc00; /* Amarillo */
+            color: black;
+            border: none;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        .main-content button:hover {
+            background-color: #ff9900; /* Amarillo más oscuro */
+            transform: scale(1.05);
+        }
+
+        /* Sección de tipos de ahorro */
+        .savings-section {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px;
+            background-color: #e0f7fa; /* Celeste claro */
+        }
+
+        .saving {
+            width: 30%;
+            text-align: center;
+            background-color: #ffffff; /* Fondo blanco */
+            border: 2px solid #005b33; /* Marco verde oscuro */
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .saving h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .saving img {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 15px;
+        }
+
+        /* Pie de página */
+        footer {
+            background-color: #005b33; /* Verde oscuro */
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <div class="logo">
+            <img src="logo cooperativa.png" alt="Logo Cooperativa">
+        </div>
+    </header>
+
+  <!-- Menú de navegación -->
+        <nav>
+            <ul>
+                <li><a href=index.html>Inicio</a></li>
+                <li><a href=afiliacion.html>Afiliación</a></li>
+                <li><a href=ahorro.html>Ahorro</a></li>
+                <li><a href=credito.html>Crédito</a></li>
+                <li><a href=usuario.html>Usuario Cooperativista</a></li>
+                <li><a href=activos.html>Activos en venta</a></li>
+            </ul>
+        </nav>
+
+    <!-- Contenido principal sobre ahorros -->
+    <div class="main-content">
+        <h2>Nuestros Planes de Ahorro</h2>
+        <p>
+            En la Cooperativa Ocotepeque, ofrecemos soluciones de ahorro adaptadas a tus metas y necesidades. Ya sea que busques ahorrar para el futuro, un proyecto especial o para emergencias, tenemos el plan adecuado para ti.
+        </p>
+        <button>Comenzar a Ahorrar</button>
+    </div>
+
+    <!-- Sección de tipos de ahorro -->
+    <div class="savings-section">
+        <div class="saving">
+            <img src="ahorro1.png" alt="Ahorro Personal">
+            <h3>Ahorro Personal</h3>
+            <p>Plan de ahorro flexible para que construyas tu fondo de emergencias o para cualquier meta.</p>
+        </div>
+        <div class="saving">
+            <img src="ahorro2.png" alt="Ahorro Infantil">
+            <h3>Ahorro Infantil</h3>
+            <p>Un plan diseñado para que los más pequeños aprendan el valor del ahorro desde temprana edad.</p>
+        </div>
+        <div class="saving">
+            <img src="ahorro3.png" alt="Ahorro a Plazo Fijo">
+            <h3>Ahorro a Plazo Fijo</h3>
+            <p>Maximiza tus ahorros con atractivas tasas de interés a plazos de 6 meses, 1 año y más.</p>
+        </div>
+    </div>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Cooperativa Ocotepeque. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>

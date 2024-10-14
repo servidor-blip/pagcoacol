@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estado Financiero - Cooperativa Ocotepeque</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f1f8e9; /* Fondo claro */
+        }
+
+        header {
+            background-color: #005b33; /* Verde oscuro */
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            color: #fff;
+            font-size: 28px;
+        }
+
+        nav {
+            background-color: #005b33;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: inline-block;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .content {
+            padding: 50px;
+            text-align: center;
+        }
+
+        .content h2 {
+            color: #005b33; /* Verde oscuro */
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .content p {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+
+        .financial-report {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 50px;
+        }
+
+        .financial-report div {
+            width: 45%;
+            padding: 20px;
+            background-color: #ffffff;
+            border: 2px solid #005b33; /* Verde oscuro */
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .financial-report img {
+            width: 80%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .financial-report button {
+            padding: 12px 25px;
+            background-color: #ffcc00; /* Amarillo */
+            color: black;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .financial-report button:hover {
+            background-color: #ff9900;
+            transform: scale(1.05);
+        }
+
+        footer {
+            padding: 20px;
+            text-align: center;
+            background-color: #005b33;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+         <div class="logo">
+            <img src="logo cooperativa.png" alt="Logo Cooperativa">
+        </div>
+    </header>
+
+     <!-- Menú de navegación -->
+        <nav>
+            <ul>
+                <li><a href=index.html>Inicio</a></li>
+                <li><a href=afiliacion.html>Afiliación</a></li>
+                <li><a href=ahorro.html>Ahorro</a></li>
+                <li><a href=credito.html>Crédito</a></li>
+                <li><a href=usuario.html>Usuario Cooperativista</a></li>
+                <li><a href=activos.html>Activos en venta</a></li>
+            </ul>
+        </nav>
+
+    <!-- Contenido principal -->
+    <div class="content">
+        <h2>Estado Financiero</h2>
+        <p>Nuestro estado financiero refleja nuestro compromiso con la transparencia y el bienestar de nuestros socios. A continuación, puedes acceder a los documentos más recientes que detallan nuestros resultados financieros.</p>
+
+        <div class="financial-report">
+            <div>
+                <h3>Balance General 2024</h3>
+                <button>Descargar PDF</button>
+            </div>
+            <div>
+                <h3>Estado de Resultados 2024</h3>
+                <button>Descargar PDF</button>
+            </div>
+        </div>
+
+        <p>Para más detalles, no dudes en ponerte en contacto con nuestra oficina principal o revisar los documentos completos en formato PDF.</p>
+    </div>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Cooperativa Ocotepeque. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
